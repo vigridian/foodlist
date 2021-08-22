@@ -36,6 +36,7 @@ function App(props) {
       return task;
     });
     setTasks(updatedTasks);
+    console.log(updatedTasks)
   }
 
 
